@@ -18,6 +18,5 @@ steps:
 - script: |
     npm uninstall babel-eslint
     npm install @babel/eslint-parser -D
-    npm install
     npm run build
   displayName: 'npm install and build'
